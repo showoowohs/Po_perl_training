@@ -22,12 +22,13 @@ sub Po_test2{
   # 2. input test
   print "call Po_test2()\n";
 
+  print "please input 123\n";
   $input=<STDIN>;
   chomp $input;
   if($input == 123){
     print "you scan 123\n";
   }else{
-    print "please input 123\n";
+    print "you scan not 123\n";
   }
 }
 
