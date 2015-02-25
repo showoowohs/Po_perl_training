@@ -1,8 +1,40 @@
 #!/usr/bin/perl
 
 sub Po_func1(){
+  # not good
   print "call Po_func1()\n";
+}
+
+sub big {
+  $a = shift;
+  $b = shift;
+  #print "call big() a = $a  b =$b\n";
+
+  if ($a > $b) {
+
+    print "call big() return $a\n";
+    return $a;
+
+  } else {
+
+    print "call big() return $b\n";
+    return $b;
+
+  }
+}
+
+sub Po_func2{
+  print "call Po_func2()\n";
+
+  foreach $i (shift) {
+    print "i = $i\n";
+  }
 }
 
 #&Po_func1
 Po_func1
+
+#&big(10, 15)
+&big(A, C)
+
+#&Po_func2(1, 2)
