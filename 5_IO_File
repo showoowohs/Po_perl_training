@@ -14,4 +14,25 @@ sub Po_test1{
   close(FILE);
 }
 
+sub Po_clear{
+  print "\n\n\n";
+}
+
+sub Po_test2{
+  # 2. input test
+  print "call Po_test2()\n";
+
+  $input=<STDIN>;
+  chomp $input;
+  if($input == 123){
+    print "you scan 123\n";
+  }else{
+    print "please input 123\n";
+  }
+}
+
 &Po_test1
+
+&Po_test2
+Po_clear
+
