@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+# 1. open and read the file
+my $filename="./Po_test_file";
+open(FILE, $filename) || die "Can't open file $filename : $!\n";
+
+# read file
+#while($_=<FILE>){
+#  print "$_";
+#}
+print while(<FILE>);
+close(FILE);
