@@ -1,12 +1,17 @@
 #!/usr/bin/perl
 
-# 1. open and read the file
-my $filename="./Po_test_file";
-open(FILE, $filename) || die "Can't open file $filename : $!\n";
+sub Po_test1{
+  # 1. open and read the file
+  print "call Po_test1()\n";
+  my $filename="./Po_test_file";
+  open(FILE, $filename) || die "Can't open file $filename : $!\n";
 
-# read file
-#while($_=<FILE>){
-#  print "$_";
-#}
-print while(<FILE>);
-close(FILE);
+  # read file
+  #while($_=<FILE>){
+  #  print "$_";
+  #}
+  print while(<FILE>);
+  close(FILE);
+}
+
+&Po_test1
