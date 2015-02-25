@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+
+# 1. Scalar
+
+# test string
+my $text="abc";
+
+# test integer
+my $number=123;
+
+# test float
+my $ff=2.3456;
+
+# print
+print "text = $text\nnumber = $number\nff = $ff\n"
+
+
