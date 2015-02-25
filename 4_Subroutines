@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+sub Po_func1(){
+  print "call Po_func1()\n";
+}
+
+#&Po_func1
+Po_func1
