@@ -46,8 +46,34 @@ sub Po_test3{
   print "write done\n";
   print "Po_test3() exit\n";
 }
+
+sub Po_test4{
+  # 4. output test
+  print "call Po_test4()\n\n";
+
+  $test="ls -l";
+  print "111111\n";
+  print "$test";             # Output ls -l
+  print "\n\n";
+
+  print "222222\n";
+  print "\$test";            # Output $test
+  print "\n\n";
+
+  print "333333\n";
+  print '$test';             # Output $test
+  print "\n\n";
+
+  print "444444\n";
+  print `$test`;             # Output files in this directory
+  print "\n\n";
+
+  print "Po_test4() exit\n";
+}
+
 &Po_test1
 
+&Po_test4
 &Po_test3
 &Po_test2
 #&Po_clear
