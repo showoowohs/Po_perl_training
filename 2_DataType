@@ -47,3 +47,6 @@ my %hash1=("i1"=>"aaa","i2"=>"bbb","i3"=>"ccc");
 foreach $key (keys %hash1) {
   print "hash1[$key] = $hash1{$key}\n";
 }
+
+print "\n\n\n";
+# 4. References(Pointer)
