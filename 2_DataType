@@ -4,14 +4,15 @@
 
 # test string
 my $text="abc";
+print "text = $text\n";
 
 # test integer
 my $number=123;
+print "number = $number\n";
 
 # test float
 my $ff=2.3456;
+print "ff = $ff\n";
 
-# print
-print "text = $text\nnumber = $number\nff = $ff\n"
 
 
