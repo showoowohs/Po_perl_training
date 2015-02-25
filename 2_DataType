@@ -28,3 +28,22 @@ my @array1=qw(a b c d);
 for($i = 0; $i <= $#array1; $i++) {
   print "array1[$i] = $array1[$i]\n";
 }
+
+print "\n\n\n";
+# 3. Hash Array
+my %hash1=("i1"=>"aaa","i2"=>"bbb","i3"=>"ccc");
+#my %hash1=("i1","aaa","i2","bbb","i3","ccc");
+
+#$hash1{'i1'}="aaa";
+#$hash1{'i2'}="bbb";
+#$hash1{'i3'}="ccc";
+
+# print
+#print "hash1{'i1'} = $hash1{'i1'}\n";
+#print "hash1{'i2'} = $hash1{'i2'}\n";
+#print "hash1{'i3'} = $hash1{'i3'}\n";
+
+# print use foreach
+foreach $key (keys %hash1) {
+  print "hash1[$key] = $hash1{$key}\n";
+}
