@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+
+# 1. Conditional Control Statements
+#my $name="friend";
+#my $name="ok";
+
+#print "HELLO!\n" if ($name eq "friend");
+if($name eq "friend"){
+  print "name = friend\n"
+}elsif($name eq "ok"){
+  print "name = ok\n"
+}else{
+  print "name = null\n"
+}
