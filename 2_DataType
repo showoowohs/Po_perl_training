@@ -19,8 +19,12 @@ print "\n\n\n";
 my @array1=qw(a b c d);
 
 # print
-print "array1[0] = $array1[0]\n";
-print "array1[1] = $array1[1]\n";
-print "array1[2] = $array1[2]\n";
-print "array1[3] = $array1[3]\n";
+#print "array1[0] = $array1[0]\n";
+#print "array1[1] = $array1[1]\n";
+#print "array1[2] = $array1[2]\n";
+#print "array1[3] = $array1[3]\n";
 
+# use for print
+for($i = 0; $i <= $#array1; $i++) {
+  print "array1[$i] = $array1[$i]\n";
+}
