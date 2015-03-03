@@ -7,4 +7,12 @@ sub Po_test1{
   print "doubles = @doubles\n";       # 2 4 6 8 10
 }
 
+sub Po_test2{
+  @user= ('s99639118', 's99639119', 's99639120', 's99639121');
+  print "user = @user\n";
+  @mail = map {  $_ .  '@stu.edu.tw' } @user;
+  print "mail = @mail\n";
+}
+
 &Po_test1
+&Po_test2
