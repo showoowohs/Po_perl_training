@@ -14,5 +14,13 @@ sub Po_test2{
   print "mail = @mail\n";
 }
 
+sub Po_test3{
+  @m=("   www",  "facility ", " mail ");
+  print "(origin) m = @m\n";
+  map { s/\s+//g } @m;    # 1. \s 其實就是 [ \t\n], "任何一個空白類字元"  2. + 重複出現任意次, 至少 1 次
+  print "(modify) m = @m\n";
+}
+
 &Po_test1
 &Po_test2
+&Po_test3
