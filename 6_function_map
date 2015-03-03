@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+sub Po_test1{
+  my @numbers = (1..5);
+  print "numbers = @numbers\n";       # 1 2 3 4 5
+  my @doubles = map {$_ * 2} @numbers;
+  print "doubles = @doubles\n";       # 2 4 6 8 10
+}
+
+&Po_test1
