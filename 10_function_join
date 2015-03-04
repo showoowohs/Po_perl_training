@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+sub Po_test1 {
+	
+	my $join_test1 = join("", ("a" .. "z"));
+	print "join_test1 = $join_test1\n";
+
+	my $join_test2 = join(" ", ("a" .. "z"));
+	print "join_test2 = $join_test2\n";
+}	
+
+Po_test1
