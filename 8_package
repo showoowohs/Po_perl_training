@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+
+$i = "s123";
+print "main: $i\n";
+ 
+package A;
+$i = "sAAA";
+print "A: $i\n";
+ 
+package B;
+print "B: $i\n";
+
+package main;
+print "main: $i\n";
