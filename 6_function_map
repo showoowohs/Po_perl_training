@@ -19,6 +19,10 @@ sub Po_test3{
   print "(origin) m = @m\n";
   map { s/\s+//g } @m;    # 1. \s 其實就是 [ \t\n], "任何一個空白類字元"  2. + 重複出現任意次, 至少 1 次
   print "(modify) m = @m\n";
+
+  #print "m[0] = $m[0]\n";
+  #print "m[1] = $m[1]\n";
+  #print "m[2] = $m[2]\n";
 }
 
 &Po_test1
