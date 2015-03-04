@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+
+sub Po_test1{
+	foreach $i (1 .. 10) {
+		print $i."\n";
+	}
+
+	foreach $i (reverse((1 .. 10))) {
+		print "(reverse)".$i."\n";
+	}
+}
+
+
+&Po_test1
