@@ -8,3 +8,4 @@
 > 6. [prel regexp](http://user.frdm.info/ckhung/b/re/rules.php)
 > 7. [shuffle use](http://www.perlmonks.org/?node_id=1869)
 > 8. [程式語言教學誌](http://pydoing.blogspot.tw/2013/01/Perl-Tutorial.html)
+> 9. [windows size](http://www.perlmonks.org/?node_id=624997)
