@@ -4,7 +4,10 @@ use File::Path;
 
 sub mount_fs{
 	my $cmd="sudo mount /dev/sda3 /home/pandora/Disk_100G";
-	my $res = `$cmd`;
+	my $res=`$cmd`;
+	#print "res = $res\n";
+	$cmd="sudo chown -R pandora.pandora ~/Disk_100G";
+	$res=`$cmd`;
 }
 
 sub check_device_note{
